@@ -35,6 +35,7 @@ public class BasePage {
     emailForm.shouldBe(Condition.visible);
   }
 
+
   public void clickNextButton() {
     SelenideElement nextButton = $x("//*[@data-name ='loginNextButton']");
     nextButton.shouldBe(Condition.enabled);

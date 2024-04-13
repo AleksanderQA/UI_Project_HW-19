@@ -4,21 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94ea2147-c370-4832-b32b-3ca36b681d71" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browsers.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ui_tests_and_page_objects/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ui_tests_and_page_objects/LocalizationPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ui_tests_and_page_objects/LoginFormTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/RandomDataGenerator.java" afterDir="false" />
+    <list default="true" id="94ea2147-c370-4832-b32b-3ca36b681d71" name="Changes" comment="Commit HW-19&#10;Created UI tests for Page Objects">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui_tests_and_page_objects/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui_tests_and_page_objects/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui_tests_and_page_objects/LocalizationPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui_tests_and_page_objects/LocalizationPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui_tests_and_page_objects/LoginFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui_tests_and_page_objects/LoginFormTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/RandomDataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/RandomDataGenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,11 +22,29 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AleksanderQA&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="a48135c8-5934-449e-b581-7f26a03bc2bb" />
+        <option name="url" value="https://github.com/AleksanderQA/UI_Project_HW-19" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -51,25 +62,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Maven.UI_Project_HW-19 [clean].executor": "Run",
-    "Maven.UI_Project_HW-19 [io.qameta.allure:allure-maven:2.12.0:report].executor": "Run",
-    "Maven.UI_Project_HW-19 [io.qameta.allure:allure-maven:2.12.0:serve].executor": "Run",
-    "Maven.UI_Project_HW-19 [test].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;JUnit.LoginFormTest.loginWithRandomData.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.UI_Project_HW-19 [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.UI_Project_HW-19 [io.qameta.allure:allure-maven:2.12.0:report].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.UI_Project_HW-19 [io.qameta.allure:allure-maven:2.12.0:serve].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.UI_Project_HW-19 [test].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ui_tests_and_page_objects" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="LoginFormTest.loginWithRandomData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UI_Project_HW-19" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui_tests_and_page_objects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ui_tests_and_page_objects" />
+      <option name="MAIN_CLASS_NAME" value="ui_tests_and_page_objects.LoginFormTest" />
+      <option name="METHOD_NAME" value="loginWithRandomData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LoginFormTest.loginWithRandomData" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -83,11 +126,39 @@
       <workItem from="1712776202428" duration="6000" />
       <workItem from="1712776216634" duration="8000" />
       <workItem from="1712776230037" duration="6000" />
-      <workItem from="1712776243319" duration="318000" />
+      <workItem from="1712776243319" duration="774000" />
+      <workItem from="1712828150117" duration="9000" />
+      <workItem from="1712858343803" duration="12000" />
+      <workItem from="1712858363914" duration="5000" />
+      <workItem from="1712858380085" duration="6000" />
+      <workItem from="1712858394937" duration="7000" />
+      <workItem from="1712913881365" duration="6000" />
+      <workItem from="1712913895433" duration="5000" />
+      <workItem from="1712913908203" duration="4000" />
+      <workItem from="1712913919976" duration="4000" />
+      <workItem from="1712990602713" duration="3444000" />
+      <workItem from="1712994056332" duration="108000" />
+      <workItem from="1712994190037" duration="36000" />
+      <workItem from="1712994259109" duration="473000" />
+      <workItem from="1712994857459" duration="43000" />
+      <workItem from="1712994931723" duration="305000" />
     </task>
+    <task id="LOCAL-00001" summary="Commit HW-19&#10;Created UI tests for Page Objects">
+      <option name="closed" value="true" />
+      <created>1712776863626</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712776863626</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit HW-19&#10;Created UI tests for Page Objects" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit HW-19&#10;Created UI tests for Page Objects" />
   </component>
 </project>

@@ -9,9 +9,11 @@ public class RandomDataGenerator {
     public static String generateRandomEmail() {
 
         String firstPart = RandomStringUtils.randomAlphanumeric(6);
+
         String[] domains = {"com", "net", "org", "ru", "ee"};
         int domainIndex = new Random().nextInt(domains.length);
         String domain = domains[domainIndex];
+
         String secondPart = RandomStringUtils.randomAlphanumeric(3,5) + "." + domain;
         return firstPart +"@"+ secondPart;
     }
@@ -35,6 +37,4 @@ public class RandomDataGenerator {
         String secondPart = RandomStringUtils.randomAlphanumeric(0) + "." + domain;
         return firstPart + symbol + secondPart;
     }
-
-
 }
